@@ -15,8 +15,8 @@ export interface Card {
   fullName: string;
   totalLimit: number;
   availableLimit: number;
-  statementDate: number; // 1-31 arası
-  dueDate: number; // 1-31 arası
+  statementDate: string; // GG.AA.YYYY formatında
+  dueDate: string; // GG.AA.YYYY formatında
   createdAt: Date;
   updatedAt: Date;
 }
